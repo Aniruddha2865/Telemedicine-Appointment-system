@@ -38,7 +38,7 @@ merged_data['age'] = merged_data['age'].astype(int)
 logger.info("Pipeline executed successfully")
 
 conn = get_connection()
-print("✅ Connected to PostgreSQL")
+print("Connected to PostgreSQL")
 conn.close()
 
 insert_data(merged_data)
